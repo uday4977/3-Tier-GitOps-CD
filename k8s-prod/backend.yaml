@@ -1,4 +1,4 @@
----  
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: adijaiswal/backend:fca8cec00e55510bb37695631ca271bf27bb0d04
+          image: adijaiswal/backend:cd812164ce4f444e52b8a3c65abc042f98113787
           ports:
             - containerPort: 5000
           env:
@@ -49,3 +49,6 @@ spec:
     - port: 5000
       targetPort: 5000
   type: ClusterIP
+  template:
+    spec:
+      containers: []

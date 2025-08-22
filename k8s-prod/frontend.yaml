@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: adijaiswal/frontend:fca8cec00e55510bb37695631ca271bf27bb0d04
+          image: adijaiswal/frontend:cd812164ce4f444e52b8a3c65abc042f98113787
           ports:
             - containerPort: 80
 ---
@@ -34,4 +34,6 @@ spec:
     - port: 80
       targetPort: 80
   type: ClusterIP
-
+  template:
+    spec:
+      containers: []
