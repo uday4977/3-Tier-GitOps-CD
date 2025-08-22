@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: adijaiswal/backend:cd812164ce4f444e52b8a3c65abc042f98113787
+          image: adijaiswal/backend:694535bf15cb7328bd153687abca4167a3fd083a
           ports:
             - containerPort: 5000
           env:
@@ -49,4 +49,3 @@ spec:
     - port: 5000
       targetPort: 5000
   type: ClusterIP
-
