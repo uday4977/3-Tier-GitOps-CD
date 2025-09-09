@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: udayramineni777/backend:694535bf15cb7328bd153687abca4167a3fd083a
+          image: udayramineni777/backend:61214ae7ea65cb004c6fac83b36c36ebbb1b5ca4
           ports:
             - containerPort: 5000
           env:
